@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Bookmarks App</title>
+        <link href="./css/index.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>Bookmarks</h1>
+        <section class="allBookmarks">
+
+        </section>
+        <h3>Get by Title</h3>
+        <form class="get-one-bookmarks-form">
+            <label>
+                Enter the title for one Bookmark
+            </label>
+            <input type="text" id = "get-bookmark-title">
+            <button id="submit-btn" type="submit">
+                Get Bookmark
+            </button>
+        </form>
+        <h5>Results:</h5>
+        <section class="resultsBytitle">
+
+        </section>
+        <h3>Post</h3>
+        <form class="add-bookmark-form">
+            <label for="">Add a new Bookmark</label>
+            <br>
+            <label for="bookmarkTitle">
+                Title:
+            </label>
+            <input type="text" id="bookmarkTitle"/>
+
+            <label for="bookmarkDescription">
+                Description:
+            </label>
+            <input type="text" id="bookmarkDescription"/>
+
+            <label for="bookmarkUrl">
+                Url:
+            </label>
+            <input type="text" id="bookmarkUrl"/>
+
+            <label for="bookmarkRating">
+                Rating:
+            </label>
+            <input type="text" id="bookmarkRating"/>
+
+            <button type="submit">
+                Add Bookmark
+            </button>
+        </form>
+        <h5>Results:</h5>
+        <section class="resultsPost">
+
+        </section>
+        <h3>Delete</h3>
+        <form class="delete-one-bookmarks-form">
+            <label>
+                Enter the id for one Bookmark
+            </label>
+            <input type="text" id = "delete-bookmark-id">
+            <button id="submit-btn" type="submit">
+                Delete Bookmark
+            </button>
+        </form>
+        <section class="resultsByDelete">
+            <p>hola</p>
+        </section>
+
+        <h3>Update</h3>
+        <form class="patch-bookmark-form">
+            <label for="">Update Bookmark</label>
+            <br>
+            <label for="bookmarkID">
+                ID:
+            </label>
+            <input type="text" id="bookmarkIDUpdate"/>
+            <label for="bookmarkTitle">
+                Title:
+            </label>
+            <input type="text" id="bookmarkTitleUpdate"/>
+
+            <label for="bookmarkDescription">
+                Description:
+            </label>
+            <input type="text" id="bookmarkDescriptionUpdate"/>
+
+            <label for="bookmarkUrl">
+                Url:
+            </label>
+            <input type="text" id="bookmarkUrlUpdate"/>
+
+            <label for="bookmarkRating">
+                Rating:
+            </label>
+            <input type="text" id="bookmarkRatingUpdate"/>
+
+            <button type="submit">
+                Add Bookmark
+            </button>
+
+            <section class="resultsByPATCH">
+
+            </section>
+        </form>
+
+        <script src="./js/index.js"></script>
+    </body>
+</html>
